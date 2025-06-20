@@ -10,7 +10,8 @@ export default function Home() {
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
       sx={{        
-        height: "100vh",
+        width: "100%",
+        height: "100%",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
@@ -20,7 +21,7 @@ export default function Home() {
         px: 2,
       }}
     >
-      <Typography variant="h4" fontWeight="bold">
+      <Typography variant="h4" fontWeight="bold" color="primary">
         Nuseunhage
       </Typography>
       <Typography variant="h6">
