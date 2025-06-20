@@ -9,7 +9,7 @@ export default function Home() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      sx={{
+      sx={{        
         height: "100vh",
         display: "flex",
         flexDirection: "column",
@@ -21,7 +21,10 @@ export default function Home() {
       }}
     >
       <Typography variant="h4" fontWeight="bold">
-        오늘, 어떤 도전을 시작할까요?
+        Nuseunhage
+      </Typography>
+      <Typography variant="h6">
+        Season1
       </Typography>
       <TextField
         label="도전 제목을 입력하세요"
